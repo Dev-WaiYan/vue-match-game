@@ -1,0 +1,11 @@
+:root {
+  --cardBgColor: orange;
+  --cardTextColor: #333333;
+  --cardBoardColor: rgba(34, 34, 160, 0.54);
+  --dark: rgba(39, 39, 39, 0.922);
+  --boxShadow: 2px 2px 2px #000;
+}
+
+body {
+  background-color: var(--dark);
+}
