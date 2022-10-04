@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { CardModel, CurrentTarget, CompletedAnswer } from "@/models/GameBoard";
+import type {
+  CardModel,
+  CurrentTarget,
+  CompletedAnswer,
+} from "@/models/GameBoard";
 
 interface Props {
   isOpen: boolean;

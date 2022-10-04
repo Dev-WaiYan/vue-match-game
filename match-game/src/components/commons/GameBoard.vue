@@ -62,7 +62,7 @@ const currentTarget = ref({
             v-for="c in cards"
             class="col-4 d-flex justify-content-center my-3"
           >
-            <!-- <Card
+            <Card
               :card="c"
               :currentTarget="currentTarget"
               :isOpen="
@@ -70,7 +70,7 @@ const currentTarget = ref({
                 c.id === currentTarget.answerId
               "
               :completedAnswers="completedAnswers"
-            /> -->
+            />
           </div>
         </div>
       </div>
